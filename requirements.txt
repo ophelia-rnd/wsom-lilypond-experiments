@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+plotly
+scipy
+ucimlrepo
+
+python-dotenv
+ipykernel
+jupyter
+
+mlflow
+som-lilypond
+bianor-databricks-kit[local] @ git+https://github.com/ophelia-rnd/bianor-databricks-kit
