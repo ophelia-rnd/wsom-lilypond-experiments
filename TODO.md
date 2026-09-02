@@ -3,7 +3,7 @@
 Experiments:
 
 - [x] Manifold Learning
-- [ ] Unsupervised Exploration
+- [x] Unsupervised Exploration
 - [ ] Supervised Analysis
 - [ ] Anomaly Contextualization
 - [ ] Trustworthiness Assessment
