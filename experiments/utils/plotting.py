@@ -2,6 +2,21 @@ import matplotlib.pyplot as plt
 
 INTRINSIC_POSITION_CMAP = "plasma"
 
+class PlotlyHelperArgs:
+
+    Figsize = lambda w, h: dict(width=w, height=h)
+
+    HiddenTicks = lambda d1, d2: dict(
+        xaxis=dict(showticklabels=False, range=[-0.5, d2 - 0.5], scaleanchor="y", constrain="domain", ticks="", ticklen=10, ticklabelstandoff=0, zeroline=False, showgrid=False),
+        yaxis=dict(showticklabels=False, range=[-0.5, d1 - 0.5], constrain="domain", ticks="", ticklen=10, ticklabelstandoff=0, zeroline=False, showgrid=False)
+    )
+
+    FullStretch = dict(
+        margin=dict(l=0, r=0, t=0, b=0, pad=0),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)"
+    )
+
 def visualize_manifold(X, y, title="Manifold in ambient space", cmap=INTRINSIC_POSITION_CMAP, plot_style_args=None, n_tick_labels=5, ax=None, hold_on=False):
     if ax is None:
         fig = plt.figure(figsize=(5, 5))

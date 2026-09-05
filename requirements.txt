@@ -5,6 +5,7 @@ matplotlib
 plotly
 scipy
 ucimlrepo
+kaleido
 
 python-dotenv
 ipykernel
