@@ -4,11 +4,11 @@ Experiments:
 
 - [x] Manifold Learning
 - [x] Unsupervised Exploration
-- [ ] Supervised Analysis
-- [ ] Anomaly Contextualization
-- [ ] Trustworthiness Assessment
+- [x] Supervised Analysis
+- [x] Anomaly Contextualization
+- [x] Trustworthiness Assessment
 
-Overall:
+Bianor (optional):
 
 - [ ] datasets are not yet persisted in Databricks
 - [ ] `features_location` is set to dummy value of `"c.s.t"`
