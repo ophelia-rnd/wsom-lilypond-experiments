@@ -12,5 +12,6 @@ ipykernel
 jupyter
 
 mlflow
+databricks-feature-engineering
 som-lilypond
 bianor-databricks-kit[local] @ git+https://github.com/ophelia-rnd/bianor-databricks-kit
